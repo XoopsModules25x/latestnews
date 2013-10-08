@@ -1,0 +1,44 @@
+<?php
+define ("_MB_LATESTNEWS_INF","ÂÎÑ ÇáÃÎÈÇÑ");
+define ("_MB_LATESTNEWS_POSTER", " ÃÑÓáÊ ÈæÇÓØÉ ");
+define ("_MB_SP", " : ");
+define ("_MB_LDCOUNTER", "ÞÑÇÁÉ");
+define ("_MB_LATESTNEWS_COLUMNS", "ÚÏÏ ÇáÃÚãÏÉ");
+define ("_MB_LATESTNEWS_COLUMN", "ÚãæÏ");
+define ("_MB_LATESTNEWS_TEXTLENGTH", "ÚÏÏ ÍÑæÝ äÕ ÇáÎÈÑ");
+define ("_MB_LATESTNEWS_LETTER", "ÍÑÝ");
+define ("_MB_LATESTNEWS_IMGWIDTH", "ÚÑÖ ÇáÕæÑÉ");
+define ("_MB_LATESTNEWS_IMGHEIGHT", "ÅÑÊÝÇÚ ÇáÕæÑÉ");
+define ("_MB_LATESTNEWS_PIXEL", "ÈíßÓá");
+define ("_MB_LATESTNEWS_BORDER", "ãÞÇÓ ÅØÇÑ ÇáÕæÑÉ");
+define ("_MB_LATESTNEWS_BORDERCOLOR", "áæä ÅØÇÑ ÇáÕæÑÉ");
+define ("_MB_LATESTNEWS_IMGPOSITION", "ãßÇä ÇáÕæÑÉ");
+define ("_MB_LATESTNEWS_MORELINK", "ÚÑÖ ÑÇÈØ ÇáãÒíÏ ãä ÇáÃÎÈÇÑ");
+define ("_MB_LATESTNEWS_TOPICLINK", "ÚÑÖ ÑÇÈØ ÇáÃÞÓÇã");
+define ("_MB_LATESTNEWS_ARCHIVELINK", "ÚÑÖ ÑÇÈØ ÇáÃÑÔíÝ");
+define ("_MB_LATESTNEWS_SUBMITLINK", "ÚÑÖ ÑÇÈØ ÃÑÓá ÎÈÑ");
+define ("_MB_LATESTNEWS_POSTEDBY", "ÚÑÖ ÃÑÓáÊ ÈæÇÓØÉ ÇáßÇÊÈ");
+define ("_MB_LATESTNEWS_POSTTIME", "ÚÑÖ ÊÇÑíÎ ÇáÎÈÑ");
+define ("_MB_LATESTNEWS_COMMENT", "ÚÑÖ ÑÇÈØ ÇáÊÚáíÞÇÊ");
+define ("_MB_LATESTNEWS_TOPICTITLE", "ÚÑÖ ÇÓã ÇáÞÓã");
+define ("_MB_LATESTNEWS_READ", "ÚÑÖ ÚÏÏ ÇáÞÑÇÁÇÊ");
+define ("_MB_LATESTNEWS_DISPLAY", "ÚÏÏ ÇáÃÎÈÇÑ ÇáãÑÇÏ ÚÑÖåÇ");
+define ("_MB_LATESTNEWS", "ÃÎÈÇÑ");
+define ("_MB_NO_COMMENT", "áÇ íæÌÏ ÊÚáíÞ");
+define ("_MB_LATESTNEWS_BLOCK", "ÂÎÑ ÇáÃÎÈÇÑ");
+define ("_MB_MORE_STORIES", "ÇáãÒíÏ ãä ÇáÃÎÈÇÑ");
+//added in 24-07-2008
+define ("_MB_LATESTNEWS_TOPICSDISPLAY", "ÃÎÊÑ ÇáÞÓã");
+define ("_MB_LATESTNEWS_NEWSNOTINST", "ÊäÈíå! ÈÑäÇãÌ ÇáÃÎÈÇÑ ÅãÇ ÛíÑ ãËÈÊ Ýí ãæÞÚß Ãæ ÛíÑ äÔØ");
+define ("_MB_LATESTNEWS_ORDERBY", "ÇáÊÑÊíÈ ÍÓÈ");
+define ("_MB_LATESTNEWS_DATE", "ÇáÊÇÑíÎ");
+define ("_MB_LATESTNEWS_HITS", "ÇáÒíÇÑÇÊ");
+define ("_MB_LATESTNEWS_RATE", "ÇáÊÕæíÊ");
+//added in 14-11-2008
+define ("_MB_LATESTNEWS_PRINT", "ÚÑÖ ÃíÞæäÉ ÇáØÈÇÚÉ");
+define ("_MB_LATESTNEWS_PDF", "ÚÑÖ ÃíÞæäÉ PDF");
+define ("_MB_LATESTNEWS_EMAIL", "ÚÑÖ ÃíÞæäÉ ÅÑÓÇá ÇáÎÈÑ áÕÏíÞ");
+define ("_MB_LATESTNEWS_SCROLL", "ÚÑÖ ÇáÃÎÈÇÑ Ýí Èáæß ãÊÍÑß");
+define ("_MB_LATESTNEWS_SCROLLHEIGHT", "ÅÑÊÝÇÚ ÇáÈáæß ÇáãÊÍÑß");
+define ("_MB_LATESTNEWS_SCROLLSPEED", "ÓÑÚÉ ÇáÈáæß ÇáãÊÍÑß");
+define ("_MB_LATESTNEWS_SELECTEDSTORIES", "ÚÑÖ ÃÎÈÇÑ ãÍÏÏÉ ( ÍÏÏ ÃÑÞÇã ÇáÃÎÈÇÑ ßãËÇá:3,8,23,46) æÖÚ 0 áÚÑÖ Çáßá");

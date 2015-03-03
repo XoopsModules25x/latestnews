@@ -40,7 +40,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         }
     }
 
-
     /**
      *
      */
@@ -110,7 +109,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
                 $modules[] = intval($row['module_id']);
             }
 
-
             $cachetime_options = '';
             foreach ($cachetimes as $cachetime => $cachetime_name) {
                 if ($i->getVar('bcachetime') == $cachetime) {
@@ -119,7 +117,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
                     $cachetime_options .= "<option value='$cachetime'>$cachetime_name</option>\n";
                 }
             }
-
 
             $sel0 = $sel1 = $ssel0 = $ssel1 = $ssel2 = $ssel3 = $ssel4 = $ssel5 = $ssel6 = $ssel7 = "";
             if ($i->getVar("visible") == 1) {
@@ -195,7 +192,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
             }
             echo "</select></td>";
 
-
             // Cache lifetime
             echo '<td class="' . $class . '" align="center"> <select name="bcachetime[' . $i->getVar("bid")
                 . ']" size="1">' . $cachetime_options . '</select>
@@ -245,7 +241,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         xoops_cp_header();
 
         global $xoopsConfig;
-
 
 //xoops_loadLanguage('admin', XTUBE_DIRNAME);
 //xoops_loadLanguage('modinfo', XTUBE_DIRNAME);
@@ -406,7 +401,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         $myblock->store();
     }
 
-
     function xtubeEditBlock($bid)
     {
         include_once dirname(__FILE__) . '/admin_header.php';
@@ -414,7 +408,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         xoops_cp_header();
 
         global $xoopsConfig;
-
 
 //xoops_loadLanguage('admin', XTUBE_DIRNAME);
 //xoops_loadLanguage('modinfo', XTUBE_DIRNAME);
@@ -472,7 +465,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         exit();
     }
 
-
     function xtubeUpdateBlock($bid, $btitle, $bside, $bweight, $bvisible, $bcachetime, $bmodule, $boptions, $groups)
     {
         $myblock = new XoopsBlock($bid);
@@ -488,7 +480,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         $myblock->store();
 
         global $xoopsDB;
-
 
         if (!empty($bmodule) && count($bmodule) > 0) {
             $sql = sprintf("DELETE FROM %s WHERE block_id = %u", $xoopsDB->prefix('block_module_link'), $bid);
@@ -529,7 +520,6 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
         redirect_header($_SERVER['PHP_SELF'], 1, _AM_LATESTNEWS_UPDATE_SUCCESS);
         exit();
     }
-
 
     if ($op == "list") {
         xoops_cp_header();
@@ -610,9 +600,7 @@ if ($xoopsUser->isAdmin($xoopsModule->mid())) {
     if ($op == 'edit_ok') {
         xtubeUpdateBlock($bid, $btitle, $bside, $bweight, $bvisible, $bcachetime, $bmodule, $options, $groups);
 
-
     }
-
 
     if ($op == 'clone_ok') {
         isBlockCloned($bid, $bside, $bweight, $bvisible, $bcachetime, $bmodule, $options);

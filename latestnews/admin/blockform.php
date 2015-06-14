@@ -117,7 +117,6 @@ $form->addElement($cache_select);
 $groupperm_handler =& xoops_gethandler('groupperm');
 $groups =& $groupperm_handler->getGroupIds('block_read', $block['bid']);
 
-
 $form->addElement(new XoopsFormSelectGroup( _AM_SYSTEM_BLOCKS_GROUP, 'groups', true, $groups, 5, true) );
 
 if (isset($block['bid'])) {

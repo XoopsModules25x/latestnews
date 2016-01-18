@@ -1,0 +1,66 @@
+ver 0.73 Beta 1
+----------------------
+updated for News 1.70 database structure (mamba)
+converted to XOOPS 2.5.6 GUI (mamba)
+
+ver 0.72
+----------------------
+Added auto height feature by set 0 in height option
+Replaced default value of featured news option to 0
+Fixed marquee mouseover
+Fixed WYSIWYG edited content bug
+
+ver 0.7
+----------------------
+Added clone option for XOOPS 2.0.x
+Added permissions panel
+Added hide/show option for print/pdf/email icons
+Added hide/show option for More News link
+Added link and description to each image automatically for SEO.
+Added Scroll ticker option with height and speed control
+added featured news option
+fixed display all articles with no topic selected ( by bandit-x )
+fixed css conflict when select news module as main module
+Replace edit and delete links with icons
+
+Ver 0.6
+----------------------
+Fixed bug: block not working if outside a news module page ( by bandit-x and trabis )
+Added a check to prevent errors if the news module is not installed and active ( by trabis )
+Added option multiselect topics ( by trabis )
+Added option 'sort by' ( by trabis )
+Added limit to "More News" link ( by young )
+Added danish translation ( by anderssk )
+
+Ver 0.5 ( First Public Release )
+----------------------
+Added option to truncate text without cutting the last word ( by trabis )
+Added image position option
+Refactored blocks language constants
+Fixed css bug ( by taimur )
+Fixed many bugs ( by trabis and bandit-x )
+
+Ver 0.4
+----------------------
+Added block admin page ( by bandit-x )
+Added admin links for edit and delete
+Added read counter with it's show/hide option
+Fixed date function ( by bandit-x )
+Fixed comments counter
+
+Ver 0.3
+----------------------
+Added number of columns option
+Added hide/show option for topic title
+Added autothumbnail with image width/height options
+Added border and border color options
+
+Ver 0.2
+----------------------
+Added columns to display news list ( by bandit-x )
+Added hide/show options for posted by, author and date
+Added hide/show option for comments
+
+Ver 0.1
+----------------------
+Initial release based on last article block

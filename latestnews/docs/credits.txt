@@ -1,9 +1,0 @@
-Credits
-===============
-
-Originally developed by By Mowaffak Ali ( www.arabxoops.com )
-
-Thanks To:
-Onaser, Hani salam, SaudiGear, Bandit-x, Trabis, Herve, Taimor.aziz, Veaglarwen, Mariane Antoun
-
-Version 0.73 was updated to XOOPS 2.5.0 Standard GUI by Michael Beck (Mamba)
